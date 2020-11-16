@@ -1,13 +1,11 @@
 package ch.dulce;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
-import org.apache.camel.BindToRegistry;
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.builder.component.ComponentsBuilderFactory;
 import org.apache.camel.component.activemq.ActiveMQComponent;
-import org.apache.camel.component.jms.JmsComponent;
 import org.springframework.jms.connection.JmsTransactionManager;
 
 /**

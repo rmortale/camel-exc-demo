@@ -1,0 +1,7 @@
+
+
+camel.component.jms.connection-factory.brokerURL=tcp://192.168.0.129:61616
+camel.component.jms.connection-factory=#class:org.apache.activemq.ActiveMQConnectionFactory
+camel.component.jms.transacted=true
+
+#camel.component.activemq.transacted=true

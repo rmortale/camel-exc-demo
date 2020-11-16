@@ -1,3 +1,0 @@
-# transactionsautowired props
-camel.component.activemq.broker-url=tcp://192.168.0.129:61616
-camel.component.activemq.transacted=true
